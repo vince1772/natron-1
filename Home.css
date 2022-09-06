@@ -1,14 +1,59 @@
+ 
  .u-section-1 {
   background-image: none;
   min-height: 752px;
+
+  
 }
 
 .u-section-1 .u-image-1 {
   height: 750px;
   margin-top: 1px;
   margin-bottom: 0;
+  background-size: 1520px;
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+  /*background-image: url(images/banner11.png);*/
+  max-width: 100% !important;
+  animation: change 20s infinite ease-in-out !important;
+
 }
 
+.container{
+  max-width: 1520px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.front-font{
+  font-size: 70px !important;
+}
+
+
+/*.u-section-1 {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    background-image: url(banner11.png);
+    background-size: 1350px;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    height: auto;
+    animation: change 20s infinite ease-in-out;
+
+}*/
+
+/*@keyframes change {
+    20%{
+        background-image: url(images/banner12.png); 
+    }
+    30%{
+        background-image: url(images/banner13.png); 
+    }
+    
+}
+*/
 .u-section-1 .u-text-1 {
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
@@ -17,8 +62,8 @@
   --animation-custom_in-scale: 1;
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-size: 2.25rem;
-  margin: -643px calc(((100% - 1140px) / 2) + 450px) 0 calc(((100% - 1140px) / 2));
+  font-size: 3.25rem;
+  margin: -643px calc(((100% - 1520px) / 2) + 450px) 0 calc(((100% - 1140px) / 2));
 }
 
 .u-section-1 .u-text-2 {
@@ -248,6 +293,7 @@
   min-height: 703px;
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/nuno-marques-0GbrjL3vZF4-unsplash.jpg");
   background-position: 50% 50%;
+
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -388,6 +434,10 @@
     padding-right: 30px;
   }
 
+  .margin-vision{
+    margin-top: 200px !important;
+  }
+
   .u-section-2 .u-line-1 {
     margin-top: 20px;
   }
@@ -397,6 +447,7 @@
   }
 
   .u-section-2 .u-container-layout-4 {
+    
     padding-left: 30px;
     padding-right: 30px;
   }
